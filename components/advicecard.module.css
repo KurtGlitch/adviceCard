@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(218, 23%, 16%);
+}
+
+.title {
+  font-family: "Manrope", sans-serif;
+  color: hsl(150, 100%, 66%);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
+  margin-top: 2.5rem;
+}
+
+.bodyText {
+  color: hsl(193, 38%, 86%);
+  font-size: 1.75rem;
+  font-weight: 800;
+  font-family: "Manrope", sans-serif;
+}
+
+.card {
+  position: relative;
+  background-color: hsl(217, 19%, 24%);
+  width: 90%;
+  max-width: 500px;
+  border-radius: 0.8rem;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.deco {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.beanA {
+  margin: 0 0.25rem 0 0.5rem;
+  width: 7px;
+  border-radius: 1rem;
+  background-color: hsl(193, 38%, 86%);
+}
+
+.beanB {
+  margin: 0 0.5rem 0 0.25rem;
+  width: 7px;
+  border-radius: 1rem;
+  background-color: hsl(193, 38%, 86%);
+}
+
+.hr1 {
+  border-color: hsl(193, 38%, 86%);
+  flex-grow: 1;
+}
+
+.hr2 {
+  border-color: hsl(193, 38%, 86%);
+  flex-grow: 1;
+}
+
+.button {
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  transform: translate(0, 50%);
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  margin: auto;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease;
+}
+
+.button:hover {
+  background-color: hsl(150, 100%, 66%);
+  box-shadow: 0 0 5px hsl(150, 100%, 66%), 0 0 15px hsl(150, 100%, 66%),
+    0 0 30px hsl(150, 100%, 66%), 0 0 150px hsl(150, 100%, 66%);
+}
+
+.button:active{
+  background-color: hsl(150, 100%, 25%);
+}
